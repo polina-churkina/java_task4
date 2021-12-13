@@ -60,5 +60,6 @@ public class lab4 {
             System.out.print(A[i] + " ");
         }
         in.close();
+        z.close();
     }
 }
