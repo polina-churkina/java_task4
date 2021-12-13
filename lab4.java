@@ -17,7 +17,7 @@ public class lab4 {
             for (int i = 0; i < Temp_A.length-1; i++){
                 Temp_A[i] = A[i];
             }
-            System.out.print("Введите " + k + "-й элемент массива: ");
+            System.out.print("Введите " + k + "-й элемент массива(чтобы закончить ввод чисел введите 'quit'): ");
             Temp_A[Temp_A.length-1] = in.nextInt();
             k = k + 1;
             A = new int[Temp_A.length];
